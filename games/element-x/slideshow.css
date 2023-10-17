@@ -35,6 +35,10 @@
     -webkit-user-select: none;
 }
 
+.prev {
+    left: 80px;
+}
+
 /* Position the "next button" to the right */
 .next {
     right: 80px;
