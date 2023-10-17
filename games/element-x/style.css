@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article,
@@ -1991,4 +1991,22 @@ a {
 .w3-border-pale-blue,
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: url('parallax.png');
+}
+
+body::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track-piece {
+    display: none;
+}
+
+body::-webkit-scrollbar-track {
+    display: none;
 }
