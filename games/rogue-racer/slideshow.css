@@ -4,6 +4,7 @@
 
 /* Slideshow container */
 .slideshow-container {
+    padding: 8px;
     position: relative;
     margin: auto;
 }
