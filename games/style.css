@@ -14,12 +14,12 @@ html {
 
 .game-button {
     transition: all .2s ease-in-out;
-    filter: brightness(50%) saturate(50%);
+    filter: brightness(100%) saturate(50%);
 }
 
 .game-button:hover {
     scale: 1.15;
-    filter: brightness(100%);
+    filter: brightness(100%) saturate(100%);
 }
 
 .game-img-left {
