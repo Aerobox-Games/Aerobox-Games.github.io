@@ -1669,8 +1669,8 @@ a {
 .w3-hover-dark-grey:hover,
 .w3-dark-gray,
 .w3-hover-dark-gray:hover {
-    color: #fff !important;
-    background-color: #616161 !important
+    color: lightgray !important;
+    background-color: black !important
 }
 
 .w3-pale-red,
