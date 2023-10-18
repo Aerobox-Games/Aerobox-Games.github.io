@@ -27,5 +27,5 @@ svg {
 
 #my-image {
     filter: url(#filter);
-    animation: 0.8s my-animation alternate infinite;
+    /* animation: 0.8s my-animation alternate infinite; */
 }

@@ -44,20 +44,95 @@
 <body style="background-color: black;">
     <div style="padding-top: 64px;"></div>
     <div style="position: relative; overflow: visible;">
-        <div class="slideshow-container-env" style="width:100%; aspect-ratio: 16.666;">
-            <div class="envSlides fadeEnv">
-                <img src="images/gray_dawn.jpg" style="width:100%;">
+        <div class="slideshow-container-env" style="width:100%; aspect-ratio: 1.777; overflow: hidden;">
+            <div class="envSlides">
+                <svg class="svg">
+                    <defs>
+                        <filter id=" filter" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-2" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 2" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-3" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="15 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                    </defs>
+                    <image xlink:href="images/gray_dawn.jpg" id="my-image" width="100%"></image>
+                </svg>
             </div>
-            <div class="envSlides fadeEnv">
-                <img src="images/green_day.jpg" style="width:100%;">
+            <div class="envSlides">
+                <svg class="svg">
+                    <defs>
+                        <filter id=" filter" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-2" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 2" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-3" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="15 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                    </defs>
+                    <image xlink:href="images/green_day.jpg" id="my-image" width="100%"></image>
+                </svg>
             </div>
-            <div class="envSlides fadeEnv">
-                <img src="images/mv_dusk.jpg" style="width:100%;">
+            <div class="envSlides">
+                <svg class="svg">
+                    <defs>
+                        <filter id=" filter" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-2" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 2" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-3" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="15 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                    </defs>
+                    <image xlink:href="images/mv_dusk.jpg" id="my-image" width="100%"></image>
+                </svg>
             </div>
         </div>
         <script src="slideshow_env.js"></script>
 
-        <img src="images/mask.png" style="width:100%;aspect-ratio: 1.777; position: absolute;left: 0;top: 0;">
+        <img src="images/mask.png" style="width:100%;aspect-ratio: 1.76;  position: absolute;left: 0;top: 0;">
 
         <div class="slideshow-container" style="position: absolute;right: -10%; top: 30%;  width: 80%;">
             <div class="carSlides">
@@ -116,6 +191,146 @@
                     <image xlink:href="images/cars/02.png" id="my-image" width="80%"></image>
                 </svg>
             </div>
+            <div class="carSlides">
+                <svg class="svg">
+                    <defs>
+                        <filter id=" filter" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-2" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 2" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-3" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="15 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                    </defs>
+                    <image xlink:href="images/cars/03.png" id="my-image" width="80%"></image>
+                </svg>
+            </div>
+            <div class="carSlides">
+                <svg class="svg">
+                    <defs>
+                        <filter id=" filter" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-2" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 2" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-3" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="15 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                    </defs>
+                    <image xlink:href="images/cars/04.png" id="my-image" width="80%"></image>
+                </svg>
+            </div>
+            <div class="carSlides">
+                <svg class="svg">
+                    <defs>
+                        <filter id=" filter" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-2" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 2" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-3" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="15 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                    </defs>
+                    <image xlink:href="images/cars/05.png" id="my-image" width="80%"></image>
+                </svg>
+            </div>
+            <div class="carSlides">
+                <svg class="svg">
+                    <defs>
+                        <filter id=" filter" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-2" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 2" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-3" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="15 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                    </defs>
+                    <image xlink:href="images/cars/06.png" id="my-image" width="80%"></image>
+                </svg>
+            </div>
+            <div class="carSlides">
+                <svg class="svg">
+                    <defs>
+                        <filter id=" filter" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-2" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="10 2" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                        <filter id="filter-3" x="-20%" y="-20%" width="140%" height="140%"
+                            filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse"
+                            color-interpolation-filters="linearRGB">
+
+                            <feMorphology operator="dilate" radius="15 0" x="0%" y="0%" width="100%" height="100%"
+                                in="SourceGraphic" result="morphology1"></feMorphology>
+                        </filter>
+                    </defs>
+                    <image xlink:href="images/cars/07.png" id="my-image" width="80%"></image>
+                </svg>
+            </div>
             <script src="slideshow_car.js"></script>
         </div>
 
@@ -154,7 +369,7 @@
 </body>
 
 <body style="background-color: black;">
-    <div style="text-align: center">
+    <div style="text-align: center; padding-top: 16px;">
         <h1 style="font-size: xxx-large;">About</h1>
         <p><b>Rogue Racer</b> is an upcoming racing game with <b>narrative</b> and <b>combat</b> elements developed by
             Aerobox
