@@ -9,8 +9,8 @@ function showSlidesCar() {
         slides[i].style.display = "none";
     }
 
-    slideIndexCar = Math.floor(Math.random() * slides.length) + 1;
+    slideIndexCar = Math.floor(Math.random() * slides.length);
 
-    slides[slideIndexCar - 1].style.display = "block";
-    setTimeout(showSlidesCar, 3000);
+    slides[slideIndexCar].style.display = "block";
+    setTimeout(showSlidesCar, 3300);
 }

@@ -12,5 +12,5 @@ function showSlidesEnv() {
     slideIndexEnv = Math.floor(Math.random() * slides.length) + 1;
 
     slides[slideIndexEnv - 1].style.display = "block";
-    setTimeout(showSlidesEnv, 4000);
+    setTimeout(showSlidesEnv, 6900);
 }
