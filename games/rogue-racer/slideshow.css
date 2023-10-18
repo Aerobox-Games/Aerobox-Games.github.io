@@ -86,14 +86,14 @@
 .envSlides {
     display: none;
     animation-name: envFade;
-    animation-duration: 6.9s;
+    animation-duration: 4.6s;
 }
 
 /* Hide the images by default */
 .carSlides {
     display: none;
     animation-name: envFade;
-    animation-duration: 3.3s;
+    animation-duration: 4.6s;
 }
 
 @keyframes envFade {

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="glitch.css">
     <style>
         body,
         h1,
@@ -51,7 +52,7 @@
                 <img src="images/green_day.jpg" style="width:100%;">
             </div>
             <div class="envSlides fadeEnv">
-                <img src="images/mv_dusk.jpg" style="width:100%; ">
+                <img src="images/mv_dusk.jpg" style="width:100%;">
             </div>
         </div>
         <script src="slideshow_env.js"></script>
@@ -83,8 +84,32 @@
             <script src="slideshow_car.js"></script>
         </div>
 
+        <div style="position: absolute; left: 5%;top: 10%;">
+            <svg class="svg">
+                <defs>
+                    <filter id=" filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox"
+                        primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
 
-        <img src="cyberracer.png" style="position: absolute; width: 35%; left: 5%;top: 10%;">
+                        <feMorphology operator="dilate" radius="10 0" x="0%" y="0%" width="100%" height="100%"
+                            in="SourceGraphic" result="morphology1"></feMorphology>
+                    </filter>
+                    <filter id="filter-2" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox"
+                        primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+
+                        <feMorphology operator="dilate" radius="10 2" x="0%" y="0%" width="100%" height="100%"
+                            in="SourceGraphic" result="morphology1"></feMorphology>
+                    </filter>
+                    <filter id="filter-3" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox"
+                        primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+
+                        <feMorphology operator="dilate" radius="15 0" x="0%" y="0%" width="100%" height="100%"
+                            in="SourceGraphic" result="morphology1"></feMorphology>
+                    </filter>
+                </defs>
+
+                <image xlink:href="cyberracer.png" id="my-image" width="35%"></image>
+            </svg>
+        </div>
 
         <img src="logo.png" alt="" style="text-align: center; position: absolute;
             margin-left: auto;margin-right: auto;left: 0;right: 0;text-align: center;

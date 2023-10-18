@@ -12,5 +12,5 @@ function showSlidesCar() {
     slideIndexCar = Math.floor(Math.random() * slides.length);
 
     slides[slideIndexCar].style.display = "block";
-    setTimeout(showSlidesCar, 3300);
+    setTimeout(showSlidesCar, 4600);
 }
