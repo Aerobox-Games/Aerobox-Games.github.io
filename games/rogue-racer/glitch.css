@@ -4,28 +4,39 @@ svg {
 }
 
 @keyframes my-animation {
-    0% {
-        filter: none;
-    }
 
-    20% {
+    0%,
+    100% {
         filter: url(#filter);
     }
 
-    50% {
-        filter: url(#filter-2);
-    }
-
-    80% {
+    3%,
+    97% {
         filter: url(#filter-3);
     }
 
-    94% {
+    5%,
+    95% {
+        filter: url(#filter-2);
+    }
+
+    12%,
+    88% {
+        filter: url(#filter-3);
+    }
+
+    15%,
+    85% {
+        filter: url(#filter);
+    }
+
+    22%,
+    78% {
         filter: none;
     }
 }
 
 #my-image {
     filter: url(#filter);
-    /* animation: 0.8s my-animation alternate infinite; */
+    animation: 4.6s my-animation alternate infinite;
 }

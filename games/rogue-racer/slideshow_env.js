@@ -9,7 +9,10 @@ function showSlidesEnv() {
         slides[i].style.display = "none";
     }
 
+    slideIndexEnvOld = slideIndexEnv;
     slideIndexEnv = Math.floor(Math.random() * slides.length);
+    if (slideIndexEnv == slideIndexEnvOld) slideIndexEnv = slideIndexEnv + 1;
+    if (slideIndexEnv >= slides.length) slideIndexEnv = 0;
 
     slides[slideIndexEnv].style.display = "block";
     setTimeout(showSlidesEnv, 4600);

@@ -97,9 +97,8 @@
 }
 
 @keyframes envFade {
-
     0% {
-        opacity: 0
+        opacity: 0.5
     }
 
     10% {
@@ -111,6 +110,6 @@
     }
 
     100% {
-        opacity: 0
+        opacity: 0.5
     }
 }
