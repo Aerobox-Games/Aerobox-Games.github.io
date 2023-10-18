@@ -10,7 +10,7 @@ html {
 
 body::-webkit-scrollbar {
     width: 10px;
-    background: url('parallax.png');
+    background: black;
 }
 
 body::-webkit-scrollbar-thumb {
