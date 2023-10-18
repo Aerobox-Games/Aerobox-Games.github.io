@@ -3,7 +3,9 @@
 }
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container,
+.slideshow-container-env,
+.slideshow-container-car {
     padding: 8px;
     position: relative;
     margin: auto;
@@ -94,4 +96,14 @@
     to {
         opacity: 1
     }
+}
+
+/* Hide the images by default */
+.envSlides {
+    display: none;
+}
+
+/* Hide the images by default */
+.carSlides {
+    display: none;
 }

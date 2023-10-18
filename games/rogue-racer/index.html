@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="slideshow.css">
     <style>
         body,
         h1,
@@ -40,12 +41,55 @@
 </head>
 
 <body style="background-color: black;">
-    <div style="position: relative; overflow: hidden;">
-        <img src="images/gray_dawn.jpg" style="width:100%">
+    <div style="padding-top: 64px;"></div>
+    <div style="position: relative; overflow: visible;">
+        <div class="slideshow-container-env" style="width:100%; aspect-ratio: 16.666;">
+            <div class="envSlides fade">
+                <img src="images/gray_dawn.jpg" style="width:100%;">
+            </div>
+            <div class="envSlides fade">
+                <img src="images/green_day.jpg" style="width:100%;">
+            </div>
+            <div class="envSlides fade">
+                <img src="images/mv_dusk.jpg" style="width:100%; ">
+            </div>
+        </div>
+        <script src="slideshow_env.js"></script>
+
         <img src="images/mask.png" style="width:100%;position: absolute;left: 0;top: 0;">
-        <img src="images/hyper_06.png" style="position: absolute;right: -10%; bottom: -20%;  width: 85%; ">
-        <img src="logo.png"
-            style="position: absolute;top: 15%;left: 10%;width: 35%;  filter: drop-shadow(0px 16px 16px black);">
+
+        <div class="slideshow-container" style="position: absolute;right: -10%; bottom: -12%;  width: 80%; ">
+            <div class="carSlides fade">
+                <img src="images/cars/01.png" style="width:100%;">
+            </div>
+            <div class="carSlides fade">
+                <img src="images/cars/02.png" style="width:100%;">
+            </div>
+            <div class="carSlides fade">
+                <img src="images/cars/03.png" style="width:100%;">
+            </div>
+            <div class="carSlides fade">
+                <img src="images/cars/04.png" style="width:100%;">
+            </div>
+            <div class="carSlides fade">
+                <img src="images/cars/05.png" style="width:100%;">
+            </div>
+            <div class="carSlides fade">
+                <img src="images/cars/06.png" style="width:100%;">
+            </div>
+            <div class="carSlides fade">
+                <img src="images/cars/07.png" style="width:100%;">
+            </div>
+            <script src="slideshow_car.js"></script>
+        </div>
+
+
+        <img src="cyberracer.png" style="position: absolute; width: 35%; left: 5%;top: 10%;">
+
+        <img src="logo.png" alt="" style="text-align: center; position: absolute;
+            margin-left: auto;margin-right: auto;left: 0;right: 0;text-align: center;
+            top: 0%; width: 35%; filter: drop-shadow(0px 16px 16px black);">
+
     </div>
 </body>
 
@@ -64,7 +108,6 @@
     <div style="text-align: center;padding-top: 64px;">
         <h1 style="font-size: xxx-large;">Screenshots</h1>
     </div>
-    <link rel="stylesheet" href="slideshow.css">
     <div class="slideshow-container">
         <div class="mySlides fade">
             <img src="screenshots/vlcsnap-2023-10-10-19h48m33s793.png"
