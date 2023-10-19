@@ -84,32 +84,10 @@
 
 /* Hide the images by default */
 .envSlides {
-    display: none;
-    animation-name: envFade;
-    animation-duration: 4.6s;
+    display: block;
 }
 
 /* Hide the images by default */
 .carSlides {
-    display: none;
-    animation-name: envFade;
-    animation-duration: 4.6s;
-}
-
-@keyframes envFade {
-    0% {
-        opacity: 0.5
-    }
-
-    10% {
-        opacity: 1
-    }
-
-    90% {
-        opacity: 1
-    }
-
-    100% {
-        opacity: 0.5
-    }
+    display: block;
 }

@@ -2,18 +2,21 @@ let slideIndexCar = 0;
 showSlidesCar();
 
 function showSlidesCar() {
-    let i;
-    let slides = document.getElementsByClassName("carSlides");
-
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
+    const images = [
+        "images/cars/01.png",
+        "images/cars/02.png",
+        "images/cars/03.png",
+        "images/cars/04.png",
+        "images/cars/05.png",
+        "images/cars/06.png",
+        "images/cars/07.png",
+    ];
 
     slideIndexCarOld = slideIndexCar;
-    slideIndexCar = Math.floor(Math.random() * slides.length);
+    slideIndexCar = Math.floor(Math.random() * images.length);
     if (slideIndexCar == slideIndexCarOld) slideIndexCar = slideIndexCar + 1;
-    if (slideIndexCar >= slides.length) slideIndexCar = 0;
+    if (slideIndexCar >= images.length) slideIndexCar = 0;
 
-    slides[slideIndexCar].style.display = "block";
-    setTimeout(showSlidesCar, 4600);
+    document.getElementById("cars").src = images[slideIndexCar];
+    setTimeout(showSlidesCar, 4800);
 }
