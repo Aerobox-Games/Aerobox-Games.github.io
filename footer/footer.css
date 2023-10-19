@@ -58,3 +58,12 @@ body {
         margin: 0% 3%;
     }
 }
+
+.social_media_button {
+    filter: invert(1) brightness(0.5);
+    transition: 0.3s;
+}
+
+.social_media_button:hover {
+    filter: invert(1) brightness(1);
+}

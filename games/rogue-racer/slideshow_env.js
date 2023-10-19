@@ -25,5 +25,5 @@ function showSlidesEnv() {
     if (slideIndexEnv >= images.length) slideIndexEnv = 0;
 
     document.getElementById("envs").src = images[slideIndexEnv];
-    setTimeout(showSlidesEnv, 4800);
+    setTimeout(showSlidesEnv, 4600);
 }

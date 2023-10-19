@@ -18,5 +18,5 @@ function showSlidesCar() {
     if (slideIndexCar >= images.length) slideIndexCar = 0;
 
     document.getElementById("cars").src = images[slideIndexCar];
-    setTimeout(showSlidesCar, 4800);
+    setTimeout(showSlidesCar, 4600);
 }
