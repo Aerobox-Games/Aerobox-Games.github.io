@@ -1,18 +1,17 @@
 body {
-    margin: 0;
-    overflow-x: hidden;
+    width: 100%;
 }
 
 .footer {
     background: #000;
-    padding: 30px 0px;
+    padding: 5% 0px;
     font-family: 'Play', sans-serif;
     text-align: center;
 }
 
 .footer .row {
     width: 100%;
-    margin: 1% 0%;
+    margin: 5% 0%;
     padding: 0.6% 0%;
     color: gray;
     font-size: 0.8em;
@@ -42,28 +41,34 @@ body {
     margin: 0% 1%;
 }
 
-@media (max-width:720px) {
-    .footer {
-        text-align: left;
-        padding: 5%;
-    }
-
-    .footer .row ul li {
-        display: block;
-        margin: 10px 0px;
-        text-align: left;
-    }
-
-    .footer .row a i {
-        margin: 0% 3%;
-    }
-}
-
 .social_media_button {
     filter: invert(1) brightness(0.5);
-    transition: 0.3s;
+    transition: 0.25s;
 }
 
 .social_media_button:hover {
     filter: invert(1) brightness(1);
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .footer {
+        padding: 2% 0px;
+    }
+
+    .footer .row {
+        margin: 1% 0%;
+    }
+  }
+  
+
+@media (min-width: 768px) and (max-width: 1280px) {
+
+    .footer .row {
+        margin: 2% 0%;
+    }
 }
