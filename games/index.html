@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title>Aerobox Games</title>
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -8,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="../topbar/topbar.css">
+    <link rel="stylesheet" href="../footer/footer.css">
     <style>
         body,
         h1,
@@ -37,9 +38,18 @@
             }
         }
     </style>
+    <style>
+        * {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
 </head>
 
 <body style="background-color: black;">
+    <div class="topbar">
+        <a href="../games">Aerobox Games</a>
+    </div>
+
     <div style="position: relative; overflow: hidden; aspect-ratio: 1.6666;">
         <img class="game-img-left" src="rogue-racer/images/screenshot_02.png"
             style="position: absolute; width: 100%; height: 100%;">
@@ -68,20 +78,7 @@
             rgb(0, 0, 0, 1) 100%);
         pointer-events: none;"></div>
     </div>
-</body>
 
-<style>
-    * {
-        font-family: "Montserrat", sans-serif;
-    }
-</style>
-<link rel="stylesheet" href="../topbar/topbar.css">
-<div class="topbar">
-    <a href="../games">Aerobox Games</a>
-</div>
-
-<body>
-    <link rel="stylesheet" href="../footer/footer.css">
     <footer>
         <div class="footer">
             <div class="row">
@@ -109,5 +106,4 @@
         </div>
     </footer>
 </body>
-
 </html>
