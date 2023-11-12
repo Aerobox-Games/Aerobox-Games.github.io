@@ -44,7 +44,6 @@ function ElementX() {
             <div className="mx-4 mb-4 py-8 flex justify-center
                             md:mx-[10%] md:py-24 md:mb-12
                             lg:mx-[5%]">
-                <meta name="theme-color" content="#4285f4" />
                 <iframe src="https://store.steampowered.com/widget/1361120/" frameBorder="0" width="646" height="190" ></iframe>
             </div>
 
