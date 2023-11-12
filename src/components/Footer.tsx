@@ -14,7 +14,7 @@ function Footer() {
     const currentYear = new Date().getFullYear()
 
     return (
-        <div>
+        <div className="p-8 bg-opacity-80 bg-black">
             <div className="flex justify-center my-8">
                 <SocialLogo  href="" logo={discordLogo}/>
                 <SocialLogo  href="https://www.instagram.com/aeroboxgames/" logo={instagramLogo}/>
