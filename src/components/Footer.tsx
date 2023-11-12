@@ -1,40 +1,34 @@
 
+import discordLogo from "../assets/common/discord.png"
+import instagramLogo from "../assets/common/instagram.png"
+import youtubeLogo from "../assets/common/youtube.png"
+import twitchLogo from "../assets/common/twitch.png"
+import twitterLogo from "../assets/common/twitter.png"
+
+import SocialLogo from "./SocialLogo"
+import FooterLink from "./FooterLink"
+
+
 
 function Footer() {
-    const currentYear = new Date().getFullYear();
+    const currentYear = new Date().getFullYear()
 
     return (
-        <div className="flex">
-            {/* <div class="row">
-                <a href="">
-                    <img src="../footer/social_media/discord.png" class="social_media_button" width=48px
-                        style="padding-left: 8px;padding-right: 8px;">
-                </a>
-                <a href="https://www.instagram.com/aeroboxgames/">
-                    <img src="../footer/social_media/instagram.png"
-                        class="social_media_button" width=48px style="padding-left: 8px;padding-right: 8px;">        
-                </a>
-                <a href="https://www.youtube.com/channel/UCpzyYv9IWLoeZcepSK3sIWw?view_as=subscriber">
-                    <img src="../footer/social_media/youtube.png" class="social_media_button" width=48px
-                        style="padding-left: 8px;padding-right: 8px;">        
-                </a>
-                <a href="https://www.twitch.tv/aeroboxgames">
-                    <img src="../footer/social_media/twitch.png"
-                        class="social_media_button" width=48px style="padding-left: 8px;padding-right: 8px;">
-
-                </a>
-                <a href="https://twitter.com/AeroboxG">
-                    <img src="../footer/social_media/twitter.png"
-                        class="social_media_button" width=48px style="padding-left: 8px;padding-right: 8px;">        
-                </a>
+        <div>
+            <div className="flex justify-center my-8">
+                <SocialLogo  href="" logo={discordLogo}/>
+                <SocialLogo  href="https://www.instagram.com/aeroboxgames/" logo={instagramLogo}/>
+                <SocialLogo  href="https://www.youtube.com/channel/UCpzyYv9IWLoeZcepSK3sIWw?view_as=subscriber" logo={youtubeLogo}/>
+                <SocialLogo  href="https://www.twitch.tv/aeroboxgames" logo={twitchLogo}/>
+                <SocialLogo  href="https://twitter.com/AeroboxG" logo={twitterLogo}/>
             </div>
 
-            <div class="row">
-                <a href="mailto:contact@aeroboxgames.com" style="padding-left: 8px;padding-right: 8px;">Contact</a>
-                <a href="mailto:support@aeroboxgames.com" style="padding-left: 8px;padding-right: 8px;">Support</a>
-            </div> */}
+            <div className="flex justify-center my-8">
+                <FooterLink href="mailto:contact@aeroboxgames.com" text="Contact"/>
+                <FooterLink href="mailto:support@aeroboxgames.com" text="Support"/>
+            </div>
 
-            <div className="">
+            <div className="flex justify-center my-8 text-xs">
                 Aerobox Games Copyright © {currentYear} - All rights reserved
             </div>
         </div>
