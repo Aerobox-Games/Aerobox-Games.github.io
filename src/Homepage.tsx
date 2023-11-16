@@ -18,9 +18,6 @@ function Homepage() {
       <Header/>
 
       <div className="relative h-screen overflow-hidden">
-        {/* <img src={RougeRacerHomepageImage} style={{ clipPath: `polygon(0 0, 0 100%, 100% 0)`}}
-            className="absolute"/> */}
-
         <div style={{backgroundImage: `url(${RougeRacerHomepageImage})`, clipPath: `polygon(0 0, 0 100%, 100% 0)`}} 
                 className="absolute bg-cover bg-center  bg-no-repeat w-full h-full">
           <img className="h-4/6 absolute left-[-20%] bottom-[10%]
@@ -39,6 +36,7 @@ function Homepage() {
               src={RogueRacerLogo} />
           </Link>
         </div>
+
         <div style={{backgroundImage: `url(${ElementXHomepageImage})`, clipPath: `polygon(100% 100%, 0 100%, 100% 0)`}} 
                 className="absolute bg-cover  bg-no-repeat w-full h-full">
           <img className="h-4/6 absolute right-[-15%] bottom-[-15%]
@@ -52,20 +50,8 @@ function Homepage() {
                           lg:w-[50%] lg:right-[12%]"
               src={ElementXLogo} />
           </Link>
-
-
-
         </div>
       </div>
-
-      {/* <div className="relative min-h-full h-screen">
-
-
-      </div> */}
-
-
-
-
 
       <Footer/>
     </div>
@@ -73,14 +59,3 @@ function Homepage() {
 }
 
 export default Homepage
-
-
-// .game-img-left {
-//   -webkit-clip-path: polygon(0 0, 0 100%, 100% 0);
-//   clip-path: polygon(0 0, 0 100%, 100% 0);
-// }
-
-// .game-img-right {
-//   -webkit-clip-path: polygon(100% 100%, 0 100%, 100% 0);
-//   clip-path: polygon(100% 100%, 0 100%, 100% 0);
-// }
