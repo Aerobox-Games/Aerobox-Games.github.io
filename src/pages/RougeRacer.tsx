@@ -10,9 +10,9 @@ import GyaruRacerImage from "../assets/rogue-racer/gyaru_racer.png"
 import ScreenshotCarousel from "../components/rouge-racer/ScreenshotCarousel"
 import ContentHeader from "../components/rouge-racer/ContentHeader"
 
-import Desert1Background from "../assets/rogue-racer/backgrounds/desert_1.png"
+// import Car1 from "../assets/rogue-racer/cars/01.png"
 
-import Car1 from "../assets/rogue-racer/cars/01.png"
+import GlitchImages from "../components/rouge-racer/GlitchImages"
 
 function RougeRacer() {
     return (
@@ -22,9 +22,7 @@ function RougeRacer() {
             <div className="relative py-16 bg-w">
 
                 <div className="relative">
-                    <img className="w-full" src={Desert1Background}/>
-
-                    <img className="absolute bottom-[-10%] right-0 w-[75%]" src={Car1}/>
+                    <GlitchImages />
 
                     <img className="absolute top-0 w-full" src={RogueRacerMask}/>
                 </div>
