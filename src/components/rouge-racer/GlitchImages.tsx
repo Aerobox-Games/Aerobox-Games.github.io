@@ -1,5 +1,5 @@
 import { useGlitch, GlitchHandle } from 'react-powerglitch'
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 import Car1 from "../../assets/rogue-racer/cars/01.png";
 import Car2 from "../../assets/rogue-racer/cars/02.png";
