@@ -20,7 +20,6 @@ function RougeRacer() {
             <Header/>
             
             <div className="relative py-16 bg-w">
-
                 <div className="relative">
                     <GlitchImages />
 
