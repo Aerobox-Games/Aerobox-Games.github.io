@@ -1,0 +1,66 @@
+---
+import Screenshot_1 from "../../assets/element-x/screenshots/screenshot_1.jpg"
+import Screenshot_2 from "../../assets/element-x/screenshots/screenshot_2.jpg"
+import Screenshot_3 from "../../assets/element-x/screenshots/screenshot_3.jpg"
+import Screenshot_4 from "../../assets/element-x/screenshots/screenshot_4.jpg"
+import Screenshot_5 from "../../assets/element-x/screenshots/screenshot_5.jpg"
+import Screenshot_6 from "../../assets/element-x/screenshots/screenshot_6.jpg"
+import Screenshot_7 from "../../assets/element-x/screenshots/screenshot_7.jpg"
+---
+
+
+<div class="flex justify-center">
+  <link 
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <script>
+    //Imported due to pnpm library for Swiper
+    import Swiper from 'swiper';
+    import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+    // import Swiper and modules styles
+    import 'swiper/css';
+    import 'swiper/css/navigation';
+    import 'swiper/css/pagination';
+
+    const swiper = new Swiper('.swiper', {
+      modules: [Navigation, Pagination, Autoplay],
+      // Optional parameters
+      loop: true,
+      autoplay: {
+        delay: 5000,
+      },
+
+      // If we need pagination
+      pagination: {
+        clickable: true,
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src={Screenshot_1.src} /></div>
+      <div class="swiper-slide"><img src={Screenshot_2.src} /></div>
+      <div class="swiper-slide"><img src={Screenshot_3.src} /></div>
+      <div class="swiper-slide"><img src={Screenshot_4.src} /></div>
+      <div class="swiper-slide"><img src={Screenshot_5.src} /></div>
+      <div class="swiper-slide"><img src={Screenshot_6.src} /></div>
+      <div class="swiper-slide"><img src={Screenshot_7.src} /></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  
+</div>
+

@@ -1,0 +1,57 @@
+---
+import '../../styles/global.css'
+import Layout from '../../layouts/Layout.astro';
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+
+import RougeRacerHomepageImage from "../../assets/rogue-racer/homepage.png"
+import ElementXHomepageImage from "../../assets/element-x/parallax.png"
+
+import CyberRacerImage from "../../assets/rogue-racer/cyber_racer.png"
+import AomoriAzusaImage from "../../assets/element-x/aomori_azusa.png"
+
+import RogueRacerLogo from "../../assets/rogue-racer/logo.png"
+import ElementXLogo from "../../assets/element-x/logo.png"
+---
+
+<Layout title="Aerobox Games">
+		<Header/>
+
+		<div class="relative h-screen overflow-hidden">
+			<div style={{backgroundImage: `url(${RougeRacerHomepageImage.src})`, clipPath: `polygon(0 0, 0 100%, 100% 0)`}} 
+						class="absolute bg-cover bg-center  bg-no-repeat w-full h-full">
+				<img class="h-4/6 absolute left-[-20%] bottom-[10%]
+								md:left-[-10%] md:bottom-[10%] 
+								lg:left-[0%] lg:bottom-[-10%] lg:h-full"
+					src={CyberRacerImage.src} />
+
+				<a href="/games/elementx">
+					<img class="absolute left-[4%] top-[5%] w-[70%] invert
+									md:left-[9%] md:w-[60%] 
+									lg:hidden"
+					src={RogueRacerLogo.src} />
+					<img class="absolute left-[5%] top-[5%] w-[70%]
+									md:left-[10%] md:w-[60%]
+									lg:left-[22%] lg:w-[35%]"
+					src={RogueRacerLogo.src} />
+				</a>
+			</div>
+
+
+			<div style={{backgroundImage: `url(${ElementXHomepageImage.src})`, clipPath: `polygon(100% 100%, 0 100%, 100% 0)`}} 
+						class="absolute bg-cover  bg-no-repeat w-full h-full">
+				<img class="h-4/6 absolute right-[-15%] bottom-[-15%]
+								md:right-[-5%] md:bottom-[-10%]
+								lg:right-[0%] lg:bottom-[-20%] lg:h-full"
+					src={AomoriAzusaImage.src} />
+
+					<a href="/games/elementx">
+						<img class="absolute right-[-15%] bottom-[0%]
+									md:right-[5%]
+									lg:w-[50%] lg:right-[12%]"
+						src={ElementXLogo.src} />
+					</a>
+			</div>
+		</div>
+		<Footer/>
+</Layout>

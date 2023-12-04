@@ -1,0 +1,14 @@
+---
+interface Props {
+	href: string;
+	logo: ImageMetadata;
+}
+
+const { href, logo } = Astro.props;
+---
+
+<a href={href}>
+    <img class="w-8 mx-2 invert opacity-50 transition-opacity hover:opacity-100 md:mx-4 md:w-12 "
+        src={logo.src}/>
+</a>
+
