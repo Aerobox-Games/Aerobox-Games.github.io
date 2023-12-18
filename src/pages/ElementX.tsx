@@ -18,7 +18,7 @@ import IceImage from "../assets/element-x/icons/ice.png"
 import ElectricityImage from "../assets/element-x/icons/electricity.png"
 import ScreenshotCarousel from "../components/element-x/ScreenshotCarousel"
 
-import ParallaxImage from "../assets/element-x/parallax.webp"
+import ParallaxImage from "../assets/element-x/parallax.png"
 
 // import Screenshot_1 from "../assets/element-x/screenshots/screenshot_1.jpg"
 
