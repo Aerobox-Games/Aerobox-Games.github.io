@@ -2,8 +2,8 @@ import './Homepage.css'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import RougeRacerHomepageImage from "./assets/rogue-racer/homepage.png"
-import ElementXHomepageImage from "./assets/element-x/parallax.png"
+import RougeRacerHomepageImage from "./assets/rogue-racer/homepage.webp"
+import ElementXHomepageImage from "./assets/element-x/parallax.webp"
 
 import CyberRacerImage from "./assets/rogue-racer/cyber_racer.webp"
 import AomoriAzusaImage from "./assets/element-x/aomori_azusa.webp"

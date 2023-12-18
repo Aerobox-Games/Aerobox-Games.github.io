@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'element-x-background': "url('./src/assets/element-x/parallax.png')"
+        'element-x-background': "url('./src/assets/element-x/parallax.webp')"
       }
     },
   },
