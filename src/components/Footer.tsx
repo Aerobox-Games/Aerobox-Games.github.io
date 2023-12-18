@@ -8,13 +8,19 @@ import twitterLogo from "../assets/common/twitter.png"
 import SocialLogo from "./SocialLogo"
 import FooterLink from "./FooterLink"
 
+import AeroboxLogo from "../assets/common/octopus_logo.png"
+
 
 
 function Footer() {
     const currentYear = new Date().getFullYear()
 
     return (
-        <div className="p-8 bg-opacity-80 bg-black">
+        <div className="p-8 bg-opacity-80 bg-black relative">
+            <img className="absolute h-1/2 opacity-20 mx-auto left-0 right-0 bottom-[5%]"
+                src={AeroboxLogo}
+            />
+
             <div className="flex justify-center my-8">
                 <SocialLogo  href="" logo={discordLogo}/>
                 <SocialLogo  href="https://www.instagram.com/aeroboxgames/" logo={instagramLogo}/>
