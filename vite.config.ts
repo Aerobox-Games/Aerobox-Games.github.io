@@ -10,7 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        games: resolve(__dirname, 'index.html'),
+        'games/index': resolve(__dirname, 'index.html'),
         'games/rogue-racer': resolve(__dirname, 'games/rogue-racer.html'),
         'games/element-x': resolve(__dirname, 'games/element-x.html')
       }
