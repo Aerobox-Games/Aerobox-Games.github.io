@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom";
 import './Homepage.css'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -25,7 +24,7 @@ function Homepage() {
                           lg:left-[0%] lg:bottom-[-10%] lg:h-full"
             src={CyberRacerImage} />
 
-          <Link to={`/games/rogue-racer`}>          
+          <a href="/games/rogue-racer">
             <img className="absolute left-[4%] top-[5%] w-[70%] invert
                             md:left-[9%] md:w-[60%] 
                             lg:hidden"
@@ -34,7 +33,17 @@ function Homepage() {
                             md:left-[10%] md:w-[60%]
                             lg:left-[22%] lg:w-[35%]"
               src={RogueRacerLogo} />
-          </Link>
+          </a>
+          {/* <Link to={`/games/rogue-racer`}>          
+            <img className="absolute left-[4%] top-[5%] w-[70%] invert
+                            md:left-[9%] md:w-[60%] 
+                            lg:hidden"
+              src={RogueRacerLogo} />
+            <img className="absolute left-[5%] top-[5%] w-[70%]
+                            md:left-[10%] md:w-[60%]
+                            lg:left-[22%] lg:w-[35%]"
+              src={RogueRacerLogo} />
+          </Link> */}
         </div>
 
         <div style={{backgroundImage: `url(${ElementXHomepageImage})`, clipPath: `polygon(100% 100%, 0 100%, 100% 0)`}} 
@@ -44,12 +53,19 @@ function Homepage() {
                           lg:right-[0%] lg:bottom-[-20%] lg:h-full"
             src={AomoriAzusaImage} />
 
+          <a href="/games/element-x">
+            <img className="absolute right-[-15%] bottom-[0%]
+                          md:right-[5%]
+                          lg:w-[50%] lg:right-[12%]"
+              src={ElementXLogo} />
+          </a>
+{/* 
           <Link to={`/games/element-x`}>
             <img className="absolute right-[-15%] bottom-[0%]
                           md:right-[5%]
                           lg:w-[50%] lg:right-[12%]"
               src={ElementXLogo} />
-          </Link>
+          </Link> */}
         </div>
       </div>
 
