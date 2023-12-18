@@ -4,7 +4,7 @@ import Header from "../components/Header"
 import RogueRacerLogo from "../assets/rogue-racer/logo.png"
 import RogueRacerMask from "../assets/rogue-racer/mask.png"
 
-import CyberRacerImage from "../assets/rogue-racer/cyber_racer.png"
+import CyberRacerImage from "../assets/rogue-racer/cyber_racer.webp"
 import GyaruRacerImage from "../assets/rogue-racer/gyaru_racer.png"
 
 import ScreenshotCarousel from "../components/rouge-racer/ScreenshotCarousel"

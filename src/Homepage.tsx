@@ -5,8 +5,8 @@ import Footer from "./components/Footer";
 import RougeRacerHomepageImage from "./assets/rogue-racer/homepage.png"
 import ElementXHomepageImage from "./assets/element-x/parallax.png"
 
-import CyberRacerImage from "./assets/rogue-racer/cyber_racer.png"
-import AomoriAzusaImage from "./assets/element-x/aomori_azusa.png"
+import CyberRacerImage from "./assets/rogue-racer/cyber_racer.webp"
+import AomoriAzusaImage from "./assets/element-x/aomori_azusa.webp"
 
 import RogueRacerLogo from "./assets/rogue-racer/logo.png"
 import ElementXLogo from "./assets/element-x/logo.png"
