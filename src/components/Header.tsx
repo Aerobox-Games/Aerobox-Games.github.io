@@ -6,6 +6,7 @@ function Header() {
                         md:px-8">
             <button className="font-bold rounded py-0.5 px-1.5 w-2/6 
                                 md:w-2/12
+                                lg:w-1/12
                                 hover:bg-white hover:text-black ">
                 <a href="/">
                     <img className="w-full" 
