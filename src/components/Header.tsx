@@ -2,11 +2,11 @@ import LogoAndTitle from "../assets/common/logo.png"
 
 function Header() {
     return (
-        <div className="sticky z-10 top-0 py-4 px-4 bg-opacity-80 bg-black w-full flex
-                        md:px-8">
+        <div className="sticky z-10 top-0 py-0.5 px-2 bg-opacity-80 bg-black w-full flex
+                        md:py-1 ">
             <button className="font-bold rounded py-0.5 px-1.5 w-2/6 
                                 md:w-2/12
-                                lg:w-1/12
+                                lg:w-[10%]
                                 hover:bg-white hover:text-black ">
                 <a href="/">
                     <img className="w-full" 
