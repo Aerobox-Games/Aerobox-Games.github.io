@@ -6,11 +6,10 @@ function Header() {
                         md:py-1 ">
             <button className="font-bold rounded py-0.5 px-1.5 w-2/6 
                                 md:w-2/12
-                                lg:w-[10%]
-                                hover:bg-white hover:text-black ">
+                                lg:w-[10%] ">
                 <a href="/">
-                    <img className="w-full" 
-                            src={LogoAndTitle}/>
+                    <img className="w-full"
+                        src={LogoAndTitle} />
                 </a>
             </button>
         </div>
