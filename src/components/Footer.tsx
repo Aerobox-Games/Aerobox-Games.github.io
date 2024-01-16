@@ -1,5 +1,5 @@
 
-import discordLogo from "../assets/common/discord.png"
+// import discordLogo from "../assets/common/discord.png"
 import instagramLogo from "../assets/common/instagram.png"
 import youtubeLogo from "../assets/common/youtube.png"
 import twitchLogo from "../assets/common/twitch.png"
@@ -15,11 +15,11 @@ function Footer() {
         <div className="p-8 bg-opacity-80 bg-black relative">
 
             <div className="flex justify-center my-8">
-                <SocialLogo href="" logo={discordLogo} />
+                {/* <SocialLogo href="" logo={discordLogo} /> */}
                 <SocialLogo href="https://www.instagram.com/aeroboxgames/" logo={instagramLogo} />
-                <SocialLogo href="https://www.youtube.com/channel/UCpzyYv9IWLoeZcepSK3sIWw?view_as=subscriber" logo={youtubeLogo} />
+                <SocialLogo href="https://youtube.com/@aeroboxgames" logo={youtubeLogo} />
                 <SocialLogo href="https://www.twitch.tv/aeroboxgames" logo={twitchLogo} />
-                <SocialLogo href="https://twitter.com/AeroboxG" logo={twitterLogo} />
+                <SocialLogo href="https://twitter.com/AeroboxGames" logo={twitterLogo} />
             </div>
 
             <div className="flex justify-center my-8">
