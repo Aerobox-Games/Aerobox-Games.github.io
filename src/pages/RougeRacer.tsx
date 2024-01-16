@@ -7,6 +7,7 @@ import RogueRacerMask from "../assets/rogue-racer/mask.png"
 import CyberRacerImage from "../assets/rogue-racer/cyber_racer.webp"
 import GyaruRacerImage from "../assets/rogue-racer/gyaru_racer.webp"
 
+import YouTubeEmbed from "../components/YouTubeEmbed"
 import ScreenshotCarousel from "../components/rouge-racer/ScreenshotCarousel"
 import ContentHeader from "../components/rouge-racer/ContentHeader"
 
@@ -18,6 +19,12 @@ function RougeRacer() {
     return (
         <div className=" bg-black">
             <Header/>
+
+            <div className="mx-4 mb-4 py-8
+                            md:mx-[10%] md:py-24 md:mb-12
+                            lg:mx-[15%]">
+                <YouTubeEmbed embedId="foKgcQQnMok"/>
+            </div>
             
             <div className="relative py-16 bg-w">
                 <div className="relative">
