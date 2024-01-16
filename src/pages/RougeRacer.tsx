@@ -48,11 +48,12 @@ function RougeRacer() {
                     src={CyberRacerImage}/>
             </div>
 
-            <div className="mx-4 py-8 text-center">
+            {/* <div className="mx-4 py-8 text-center">
                 <ContentHeader text="About"/> 
                 <p>Rogue Racer is an upcoming racing game with narrative and combat elements developed by Aerobox Games.</p>
                 <p>Stay tuned! </p>
-            </div>
+            </div> */}
+
             <div className="px-2 mb-4 flex justify-center 
                             md:mx-[10%] md:py-24 md:mb-12
                             lg:mx-[5%]">
