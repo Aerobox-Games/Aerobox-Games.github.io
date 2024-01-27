@@ -2,7 +2,7 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 
 import RogueRacerLogo from "../assets/rogue-racer/logo.png"
-import RogueRacerMask from "../assets/rogue-racer/mask.png"
+// import RogueRacerMask from "../assets/rogue-racer/mask.png"
 
 import CyberRacerImage from "../assets/rogue-racer/cyber_racer.webp"
 import GyaruRacerImage from "../assets/rogue-racer/gyaru_racer.webp"
@@ -13,12 +13,26 @@ import ContentHeader from "../components/rouge-racer/ContentHeader"
 
 // import Car1 from "../assets/rogue-racer/cars/01.png"
 
-import GlitchImages from "../components/rouge-racer/GlitchImages"
+// import GlitchImages from "../components/rouge-racer/GlitchImages"
 
 function RougeRacer() {
     return (
         <div className=" bg-black">
             <Header/>
+
+            <div className="flex justify-center relative overflow-hidden">
+                    <img className="w-3/6
+                                    lg:w-2/6" 
+                        src={RogueRacerLogo}/>
+
+                <img className="absolute top-[0%] h-[200%] left-[5%]
+                                md:left-[20%]" 
+                    src={GyaruRacerImage}/>
+                
+                <img className="absolute  top-[5%] h-[200%] right-[8%]
+                                md:right-[21%]" 
+                    src={CyberRacerImage}/>
+            </div>
 
             <div className="mx-4 mb-4 py-8
                             md:mx-[10%] md:py-24 md:mb-12
@@ -26,7 +40,7 @@ function RougeRacer() {
                 <YouTubeEmbed embedId="foKgcQQnMok"/>
             </div>
             
-            <div className="relative py-16 bg-w">
+            {/* <div className="relative py-16 bg-w">
                 <div className="relative">
                     <GlitchImages />
 
@@ -37,16 +51,8 @@ function RougeRacer() {
                                 lg:w-2/6" 
                     src={RogueRacerLogo}/>
 
-                <img className="absolute h-4/6 top-[20%] left-[-3%]
-                                md:left-[0%]
-                                lg:h-[80%]" 
-                    src={GyaruRacerImage}/>
-                
-                <img className="absolute h-3/5 top-[27%] left-12
-                                md:left-[13%]
-                                lg:h-[73%]" 
-                    src={CyberRacerImage}/>
-            </div>
+
+            </div> */}
 
             {/* <div className="mx-4 py-8 text-center">
                 <ContentHeader text="About"/> 
