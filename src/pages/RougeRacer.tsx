@@ -2,7 +2,7 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 
 import RogueRacerLogo from "../assets/rogue-racer/logo2.png"
-import RogueRacerLogoBackground from "../assets/rogue-racer/backgrounds/logo-background.png"
+import RogueRacerLogoBackground from "../assets/rogue-racer/backgrounds/logo-background.jpg"
 // import RogueRacerMask from "../assets/rogue-racer/mask.png"
 
 //import CyberRacerImage from "../assets/rogue-racer/cyber_racer.webp"
