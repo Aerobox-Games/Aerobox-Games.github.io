@@ -1,0 +1,6 @@
+/                       /index.html                 200
+/games/index            /index.html                 200
+/games/rogue-racer      games/rogue-racer.html      200
+/games/rogue-racer/     games/rogue-racer.html      200
+/games/element-x        games/element-x.html        200
+/games/element-x/       games/element-x.html        200
