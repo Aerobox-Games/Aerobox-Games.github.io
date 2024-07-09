@@ -36,9 +36,7 @@ function RougeRacer() {
             <div className="max-w-screen-lg mx-auto">
  
 
-                <div className="mx-4 mb-4 py-8
-                                md:mx-[10%] md:py-24 md:mb-12
-                                lg:mx-[15%]">
+                <div className="my-24">
                     <YouTubeEmbed embedId="foKgcQQnMok"/>
                 </div>
                 
@@ -62,15 +60,11 @@ function RougeRacer() {
                     <p>Stay tuned! </p>
                 </div> */}
 
-                <div className="px-2 mb-4 flex justify-center 
-                                md:mx-[10%] md:py-24 md:mb-12
-                                lg:mx-[5%]">
+                <div className="my-24 flex justify-center">
                     <iframe src="https://store.steampowered.com/widget/764420/" frameBorder="0" width="646" height="190"></iframe>
                 </div>
 
-                <div className="mx-4 py-8
-                                md:px-[5%]
-                                lg:px-[2%]">
+                <div className="my-24">
                     <ContentHeader text="Screenshots"/>                
                     <ScreenshotCarousel />
                 </div>
