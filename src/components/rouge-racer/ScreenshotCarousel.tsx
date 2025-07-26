@@ -19,6 +19,8 @@ import Screenshot_5 from "../../assets/rogue-racer/screenshots/screenshot_5.png"
 import Screenshot_6 from "../../assets/rogue-racer/screenshots/screenshot_6.png"
 import Screenshot_7 from "../../assets/rogue-racer/screenshots/screenshot_7.png"
 import Screenshot_8 from "../../assets/rogue-racer/screenshots/screenshot_8.png"
+import Screenshot_9 from "../../assets/rogue-racer/screenshots/screenshot_9.png"
+import Screenshot_10 from "../../assets/rogue-racer/screenshots/screenshot_10.png"
 
 
 function ScreenshotCarousel() {
@@ -49,6 +51,8 @@ function ScreenshotCarousel() {
         <SwiperSlide><img src={Screenshot_6} loading="lazy"/><div className="swiper-lazy-preloader"/></SwiperSlide>
         <SwiperSlide><img src={Screenshot_7} loading="lazy"/><div className="swiper-lazy-preloader"/></SwiperSlide>
         <SwiperSlide><img src={Screenshot_8} loading="lazy"/><div className="swiper-lazy-preloader"/></SwiperSlide>
+        <SwiperSlide><img src={Screenshot_9} loading="lazy"/><div className="swiper-lazy-preloader"/></SwiperSlide>
+        <SwiperSlide><img src={Screenshot_10} loading="lazy"/><div className="swiper-lazy-preloader"/></SwiperSlide>
       </Swiper>
     </div>
   );
