@@ -12,7 +12,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 import Screenshot_1 from "../../assets/rogue-racer/screenshots/screenshot_1.png"
-import Screenshot_2 from "../../assets/rogue-racer/screenshots/screenshot_2.jpg"
+import Screenshot_2 from "../../assets/rogue-racer/screenshots/screenshot_2.png"
 import Screenshot_3 from "../../assets/rogue-racer/screenshots/screenshot_3.png"
 import Screenshot_4 from "../../assets/rogue-racer/screenshots/screenshot_4.png"
 import Screenshot_5 from "../../assets/rogue-racer/screenshots/screenshot_5.png"
